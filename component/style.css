@@ -166,7 +166,7 @@ main{
             .zan-0{
                 font-size: 36px;
             }
-///from here is cards
+
 
 .cards {
   background-color: #f4f4f4;
@@ -260,4 +260,10 @@ main{
   .card-content .description {
     font-size: 0.85rem;
   }
+}
+.btn-lan{
+  margin: 0 auto;
+  background-color: #6d6d60;
+  border-radius: 15px;
+  color: white;
 }
