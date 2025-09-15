@@ -7,7 +7,7 @@ const translations = {
     womensClothes: "Women's Clothes",
     wirelessHeadphones: "shorts 3-piece sets women",
     price: "$59.99",
-    description: "High-quality wireless headphones with noise cancellation and long battery life.",
+    description: "Oversized zip-up hoodie in a soft pink bas",
     buyNow: "Buy Now",
     productin:"Damen Grafic T-shirt",
     teene:"Teenage girl",
@@ -21,6 +21,28 @@ const translations = {
     boyi:"Young men",
     mode:"Fashionable",
     kido:"Kid's Clothes",
+    headi:"Winter baby clothes",
+    kidii:"Children's clothes",
+    kidiii:"boy's collection",
+    kidiv:"girl's collection",
+    kidv:"kids clothes",
+    kidvi:"kids clothes",
+    ladyi:"Short-sleeve T-shirt blush pink",
+     ladyii:"A collage-style outfit",
+      ladyiii:"Another collage-style outfit ",
+       ladyiv:"A cream hoodie outfit with brown pants",
+        ladyv:"Teenage girl outfit",
+        vari:"Men's sportwear",
+        varii:"White hoodie with a high collar",
+        variii:"Men's sportwear",
+        variv:"Men's sportwear",
+        varv:"Men's sportwear",
+        finchi:"winter set collection",
+        finchii:"children's comfortable clothes",
+        finchiii:"boy's set",
+        finchiv:"kid's set",
+        finchv:"kid's collection",
+        finchvi:"girls denim",
  switchText: "Switch to فارسی"
   },
   fa: {
@@ -32,7 +54,7 @@ const translations = {
     womensClothes: "لباس زنان",
     wirelessHeadphones: "شلوارک 3 تکه زنانه",
     price: "59.99 دلار",
-    description: "هدفون بی‌سیم با کیفیت بالا با نویز کنسلینگ و عمر باتری طولانی.",
+    description: "هودی زیپدار سایز بزرگ با ضمینه صورتی",
     buyNow: "خرید حالا",
     productin:"تیشرت گرافیکی زنانه",
     teene:"دختران نوجوان",
@@ -46,6 +68,28 @@ const translations = {
        boyi:"مردان جوان",
        mode:"مد روز",
        kido:"لباس کودکان",
+       headi:"لباس زمستانه کودکان",
+       kidii:"لباس بچه گانه",
+       kidiii:"مجموعه پسرانه",
+       kidiv:"مجموعه دخترانه",
+       kidv:"لباس کودکان",
+       kidvi:"لباس کودکان",
+       ladyi:"تی شرت آستین کوتاه به رنگ صورتی کمرنگ",
+         ladyii:"یک لباس به سبک کلاژ",
+           ladyiii:"یک سبک دیگر کلاژ",
+             ladyiv:"هودی کرم رنگ با شلوار قهوه ای",
+               ladyv:"لباس بیرون دخترانه",
+               vari:"لباس ورزشی",
+               varii:"هدی سفید با یقه بلند",
+               variii:"لباس ورزشی",
+               variv:"لباس ورزشی",
+               varv:"لباس ورزشی",
+               finchi:"مجموعه ست زمستانه",
+               finchii:"لباس راحتی کودکان",
+               finchiii:"ست کودکانه",
+               finchiv:"لباس ست کودکان",
+               finchv:"ست پسرانه",
+               finchvi:"جین دخترانه",
     switchText: "Switch to English",
   }
 };
@@ -68,8 +112,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // تابع برای به‌روزرسانی متن‌ها
 function updateContent() {
+   document.querySelector(".ladyi").textContent = translations[currentLanguage].ladyi;
+    document.querySelector(".ladyii").textContent = translations[currentLanguage].ladyii;
+     document.querySelector(".ladyiii").textContent = translations[currentLanguage].ladyiii;
+      document.querySelector(".ladyiv").textContent = translations[currentLanguage].ladyiv;
+       document.querySelector(".ladyv").textContent = translations[currentLanguage].ladyv;
+        document.querySelector(".vari").textContent = translations[currentLanguage].vari;
+         document.querySelector(".varii").textContent = translations[currentLanguage].varii;
+          document.querySelector(".variii").textContent = translations[currentLanguage].variii;
+           document.querySelector(".variv").textContent = translations[currentLanguage].variv;
+            document.querySelector(".varv").textContent = translations[currentLanguage].varv;
+             document.querySelector(".finchi").textContent = translations[currentLanguage].finchi;
+              document.querySelector(".finchii").textContent = translations[currentLanguage].finchii;
+               document.querySelector(".finchiii").textContent = translations[currentLanguage].finchiii;
+                document.querySelector(".finchiv").textContent = translations[currentLanguage].finchiv;
+                 document.querySelector(".finchv").textContent = translations[currentLanguage].finchv;
+                  document.querySelector(".finchvi").textContent = translations[currentLanguage].finchvi;
+                  
   document.querySelector("h1").textContent = translations[currentLanguage].fashion;
+    document.querySelector(".kidiii").textContent = translations[currentLanguage].kidiii;
+      document.querySelector(".kidiv").textContent = translations[currentLanguage].kidiv;
+        document.querySelector(".kidv").textContent = translations[currentLanguage].kidv;
+          document.querySelector(".kidvi").textContent = translations[currentLanguage].kidvi;
   document.querySelector(".kido").textContent = translations[currentLanguage].kido;
+  document.querySelector(".kidii").textContent = translations[currentLanguage].kidii;
+  document.querySelector(".headi").textContent = translations[currentLanguage].headi;
   document.querySelector(".mode").textContent = translations[currentLanguage].mode;
   document.querySelector(".sporti").textContent = translations[currentLanguage].sporti;
   document.querySelector(".boyi").textContent = translations[currentLanguage].boyi;
