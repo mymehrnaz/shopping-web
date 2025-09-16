@@ -86,9 +86,9 @@ const translations = {
                varv:"لباس ورزشی",
                finchi:"مجموعه ست زمستانه",
                finchii:"لباس راحتی کودکان",
-               finchiii:"ست کودکانه",
+               finchiii:"ست پسرانه",
                finchiv:"لباس ست کودکان",
-               finchv:"ست پسرانه",
+               finchv:"ست کودکانه",
                finchvi:"جین دخترانه",
     switchText: "Switch to English",
   }
