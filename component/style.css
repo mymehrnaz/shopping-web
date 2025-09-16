@@ -267,3 +267,33 @@ main{
   border-radius: 15px;
   color: white;
 }
+.containerer{
+  margin: 0 auto;
+}
+.col{
+    border-radius: 15px;
+    border: 1px solid #6e7086;
+    background-color: #f4f4f4;
+    padding-bottom: 12px;
+    
+    
+}
+.dogm{
+    border-radius: 15px;
+    border: 2px solid #e91e63;
+    background-color: #e91e63;
+    padding: 3px;
+}
+.dogm:hover{
+    background-color: #791d3b;
+}
+.chi{
+    transition: all 150ms ease-in-out;
+}
+.chi:hover{
+    transform: scale(1.2);
+}
+.ham{
+  text-align: center;
+  font-size: 30px;
+}

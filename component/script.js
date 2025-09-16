@@ -43,6 +43,7 @@ const translations = {
         finchiv:"kid's set",
         finchv:"kid's collection",
         finchvi:"girls denim",
+        ham:"New season,New style",
  switchText: "Switch to فارسی"
   },
   fa: {
@@ -90,6 +91,7 @@ const translations = {
                finchiv:"لباس ست کودکان",
                finchv:"ست کودکانه",
                finchvi:"جین دخترانه",
+               ham:"فصل جدید،سبک جدید",
     switchText: "Switch to English",
   }
 };
@@ -112,6 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // تابع برای به‌روزرسانی متن‌ها
 function updateContent() {
+  document.querySelector(".ham").textContent = translations[currentLanguage].ham;
    document.querySelector(".ladyi").textContent = translations[currentLanguage].ladyi;
     document.querySelector(".ladyii").textContent = translations[currentLanguage].ladyii;
      document.querySelector(".ladyiii").textContent = translations[currentLanguage].ladyiii;
