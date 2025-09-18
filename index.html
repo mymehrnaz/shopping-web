@@ -75,13 +75,13 @@
                     <div class="nav-items">
                         <h3 class="nav-subtitle">Menu</h3>
 
-                                                <a href="#" class="nav-link">
+                                                <a href="#pay" class="nav-link">
                             <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
                             <span class="nav-name">Purchase</span>
                         </a>
 
 
-                        <a href="#" class="nav-link">
+                        <a href="#news" class="nav-link">
                             <i class="bx bx-compass nav-icon"></i>
                             <span class="nav-name">Explore</span>
                         </a>
@@ -121,7 +121,7 @@
     
   </div>
     <section class="divar">
- <h3 class="ham">New season,New style:</h3>
+ <h3 class="ham" id="news">New season,New style:</h3>
 <div class="containerer text-center">
   <div class="row row-cols-2">
     <div class="col"><img src="image/acsessory.jpg" width="50%"class="rounded mx-auto d-block m-2 chi"/><br/><span class="dogm yek">Accessories <i class="fa-solid fa-arrow-right"></i></span></div>
@@ -344,9 +344,60 @@
   </di>
 <h3 class="learn">See more:<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></h3>
   <hr>
-  <div>
-    
-  </div>
+  
+     <section class="pay mt-3" id="pay">
+    <div class="containeriii p-2">
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading headam">
+                    <h3 class="panel-title mt-3">
+                        Payment Details
+                    </h3>
+                    <span class="checkbox pull-right d-flex justify-content-start mb-3 me-2 mt-1">
+                        <label>
+                            <input type="checkbox"/>
+                            Remember
+                        </label>
+                      </span>
+                </div>
+                <div class="panel-body">
+                    <form role="form">
+                    <div class="form-group">
+                      <hr>
+                        <label for="cardNumber">
+                            CARD NUMBER</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                                required autofocus />
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-7 col-md-7">
+                            <div class="form-group">
+                                <label for="expityMonth">
+                                    EXPIRY DATE</label>
+                                <div class="col-xs-6 col-lg-6 pl-ziro">
+                                    <input type="text" class="form-control" id="expityMonth" placeholder="MM" required />
+                                </div>
+                                <div class="col-xs-6 col-lg-6 pl-ziro">
+                                    <input type="text" class="form-control" id="expityYear" placeholder="YY" required /></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-md-5 pull-right">
+                            <div class="form-group">
+                                <label for="cvCode">
+                                    CV CODE</label>
+                                <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+              <a href="#" class="btn btn-success btn-lg btn-block d-block mt-2" role="button">Pay</a>
+        </div>
 </main>
     <script src="component/script.js"></script>
     <script src="component/second.js"></script>
