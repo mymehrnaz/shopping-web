@@ -44,6 +44,12 @@ const translations = {
         finchv:"kid's collection",
         finchvi:"girls denim",
         ham:"New season,New style",
+        yek:"Accessories",
+        doo:"Trends",
+        see:"Kids",
+        chahar:"Women",
+        panj:"Men",
+        shish:"Shoes",
  switchText: "Switch to فارسی"
   },
   fa: {
@@ -81,7 +87,7 @@ const translations = {
              ladyiv:"هودی کرم رنگ با شلوار قهوه ای",
                ladyv:"لباس بیرون دخترانه",
                vari:"لباس ورزشی",
-               varii:"هدی سفید با یقه بلند",
+               varii:"هودی سفید با یقه بلند",
                variii:"لباس ورزشی",
                variv:"لباس ورزشی",
                varv:"لباس ورزشی",
@@ -92,6 +98,12 @@ const translations = {
                finchv:"ست کودکانه",
                finchvi:"جین دخترانه",
                ham:"فصل جدید،سبک جدید",
+               yek:"لوازم جانبی",
+               doo:"پرفروش ها",
+               see:"بچه گانه",
+               chahar:"زنانه",
+               panj:"مردانه",
+               shish:"کفش",
     switchText: "Switch to English",
   }
 };
@@ -115,6 +127,13 @@ document.addEventListener("DOMContentLoaded", () => {
 // تابع برای به‌روزرسانی متن‌ها
 function updateContent() {
   document.querySelector(".ham").textContent = translations[currentLanguage].ham;
+    document.querySelector(".yek").textContent = translations[currentLanguage].yek;
+  document.querySelector(".doo").textContent = translations[currentLanguage].doo;
+  document.querySelector(".see").textContent = translations[currentLanguage].see;
+  document.querySelector(".chahar").textContent = translations[currentLanguage].chahar;
+  document.querySelector(".panj").textContent = translations[currentLanguage].panj;
+  document.querySelector(".shish").textContent = translations[currentLanguage].shish;
+
    document.querySelector(".ladyi").textContent = translations[currentLanguage].ladyi;
     document.querySelector(".ladyii").textContent = translations[currentLanguage].ladyii;
      document.querySelector(".ladyiii").textContent = translations[currentLanguage].ladyiii;
